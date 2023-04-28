@@ -1,0 +1,42 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+tqdm = "*"
+black = "*"
+sitemap-generator = "*"
+pyperclip = "*"
+pytest = "*"
+sphinx = "*"
+markdown-it-py = {extras = ["linkify", "plugins"], version = "*"}
+sphinx-press-theme = "*"
+myst-parser = "*"
+
+[packages]
+pytz = "*"
+aiohttp = { extras = ["speedups"], version = "*" }
+asyncpraw = "*"
+owotext = "*"
+zalgo-text = "*"
+"discord.py" = {extras = ["speedup", "voice"], git = "https://github.com/PythonCoderAS/discord.py.git"}
+pyttsx3 = "*"
+sentry-sdk = {extras = ["pure_eval"], version = "*"}
+tortoise-orm = {extras = ["accel", "asyncpg"], version = "*"}
+aerich = "==0.5.3"
+discord-py-slash-command = "*"
+asyncdex = "*"
+pokestarbot-c = {path = "./bot_data/c-ext"}
+validators = "*"
+bs4 = "*"
+lxml = "*"
+cachetools = "*"
+pure_eval = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
